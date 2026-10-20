@@ -53,23 +53,17 @@ whether you hit them:
 
 ## 1.
 
-<!-- Your criterion. It must name a number. -->
+Held-out accuracy is at least 0.67 on every seed (42, 7, and 2024).
 
-
-
-**Why this target:**
-
-
+**Why this target:** The test split is about 30 posts. 0.67 is 20 of those 30. A coin flip across procedure, case, and verdict is about 10 of the 30. I want the worst of the three seeds to still be a result I would use on a new post.
 
 ---
 
 ## 2.
 
-<!-- Your criterion. -->
+Every label has an F1 of at least 0.55 on every seed.
 
-
-
-**Why this target:**
+**Why this target:** procedure and verdict are the pair my rule was written for, so those posts will get swapped. This results in a higher expected miss rate, so this bar is lower than my accuracy bar because of that.
 
 
 
@@ -77,11 +71,9 @@ whether you hit them:
 
 ## 3.
 
-<!-- Your criterion. -->
+No label is more than 50% of labels.csv.
 
-
-
-**Why this target:**
+**Why this target:** I have not collected the 200 posts yet. The checklist already flags a label over 70%, because the model can look accurate by always guessing the big label. 50% is the share where I will stop and go find more of the other two.
 
 
 
@@ -89,11 +81,9 @@ whether you hit them:
 
 ## 4.
 
-<!-- Your criterion. -->
+On every seed, the most-sure third of the test posts is right at least 0.2 more often than the least-sure third.
 
-
-
-**Why this target:**
+**Why this target:** Section 5 prints those two thirds, about 10 posts each. 0.2 is 2 extra correct posts in the sure third. One extra post is luck, I want a gap big enough that a sure prediction is actually safer.
 
 
 
@@ -101,11 +91,9 @@ whether you hit them:
 
 ## 5.
 
-<!-- Your criterion. -->
+Macro F1 is at least 0.6 on every seed.
 
-
-
-**Why this target:**
+**Why this target:** Macro F1 is the average of the procedure, case, and verdict F1 scores. I set 0.6 because it is in between my accuracy bar and my per label F1. Anything lower than the per label F1 is usless because it would pass whenever #2 passes, and the 0.67 is a little high because a run of 0.55, 0.55, and 0.65 averages to 0.58, passing #2 but not this bar.
 
 
 
