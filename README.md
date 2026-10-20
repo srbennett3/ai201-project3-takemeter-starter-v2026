@@ -54,33 +54,41 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `procedure`
 
-**Definition:**
-
-**Example 1:**
->
-
-**Example 2:**
->
-
-### `label_two`
-
-**Definition:**
+**Definition:** Names a part, a place on the car, a setting, or a spec, and that detail is what the reader is supposed to use.
 
 **Example 1:**
->
+> There are 3 TPS in the E46 M3 - one by the oil filter housing, one under the intake manifold and one in the gas pedal. I had this issue and started with the TPS by the oil filter housing, then swapped the gas pedal, and finally had to remove the intake manifold. It ended up being the TPS under the intake manifold for me. Careful not to strip the soft screws holding the TPS on.
 
 **Example 2:**
->
+> The allen screws are for caster adjustment. Those are set during an alignment and shouldn't need to be adjusted after. Camber adjustment is easy via the three lock nuts. When camber is adjusted, caster will not be affected much, but toe will change quite a bit.
+
+### `case`
+
+**Definition:** Describes what this car is doing, what code it threw, or what the owner already did, and does not tell the reader the next step.
+
+**Example 1:**
+> I believe code P1637 is the throttle position sensor, is there procedure to find the right starting point for the sensor? Thanks, Chris
+
+**Example 2:**
+> Did you ever find the sweet spot for the TPS by the oil filter? I have replaced both tps sensors, the pedal and the actuator and still have the eml light issue. Any help would be very appreciated
+
+### `verdict`
+
+**Definition:** States a conclusion, a shop, or a product preference, and does not give a part location, a spec, or this car's unresolved fault.
+
+**Example 1:**
+> No, this has to be re-done. Poor surface prep is clearly evident here. If left like this, it only going to get worse.
+
+**Example 2:**
+> ARS customs recently did my car and they did a good job with my car.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `procedure` and `verdict`
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+**The decision rule I used every time:** I used `procedure` only when the post named a part, a place on the car, a setting, or a spec the reader could check or do. Naming the cause in ordinary words stayed `verdict`. A post about the writer's own car was `case` when it gave the symptom, the code, the mileage, or the work already done, and it did not tell the reader what to do. A reply that told a personal story and also said where to look or what to use was `procedure`.
 
 
 

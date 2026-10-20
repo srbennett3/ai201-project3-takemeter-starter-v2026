@@ -5,6 +5,6 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+procedure: Names a part, a place on the car, a setting, or a spec, and that detail is what the reader is supposed to use.
+case: Describes what this car is doing, what code it threw, or what the owner already did, and does not tell the reader the next step.
+verdict: States a conclusion, a shop, or a product preference, and does not give a part location, a spec, or this car's unresolved fault.
