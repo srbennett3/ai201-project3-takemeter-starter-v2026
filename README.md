@@ -41,7 +41,7 @@
 
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
-
+The posts come from a BMW car forum called nam3forum.com, specifically the E46 (2001–2006) board. The classifier sorts each post into procedure, case, or verdict. Procedure names a part, a place on the car, a setting, or a spec the reader is supposed to use. Case describes what the car is doing, what code it threw, or what the owner already did, but the post does not tell the reader the next step. Verdict states a conclusion, or a shop or product preference, and does not give a part location, a spec, or this car's unresolved issue.
 
 
 ---
@@ -101,7 +101,7 @@
 
 **Where the posts came from:** Public posts on the E46 (2001–2006) board at NA M3 Forums, https://nam3forum.com/forums/forum/main-forum/e46-2001-2006. I collected whole posts from the first page of repair and parts threads.
 
-**How I labelled them:** I labeled `cold` the first 20 posts in the csv, then had my AI tool assign the label `pre-labelled` to the following 180 posts using the definitions and the decision rule in Label Taxonomy.
+**How I labelled them:** I labeled `cold` the first 20 posts in the csv, then had my AI tool assign the label `pre-labeled` to the following 180 posts using the definitions and the decision rule in Label Taxonomy.
 
 **Counts per label:**
 
@@ -174,15 +174,15 @@ The smallest test count is verdict, 9.
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I had my AI tool label 180 posts after 20 that I labeled cold, using the definitions and the decision rule in Label Taxonomy.
+- *What came back:* Each post was labeled procedure, case, or verdict, and the note was pre-labeled. The counts were 70 procedure, 70 case, and 60 verdict.
+- *What I changed:* I changed 4 of the conclusions that came back: 2 procedures to Verdicts, one verdict to procedure, one procedure to case.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked whether any labels were not definitive.
+- *What came back:* It found 8 questions were not difinitively in any category, these were labeled case. Two more posts were found that could go either way.
+- *What I changed:* I did not change the labels because there was no observable correct conclusion
 
 **Pre-labelling disclosure:** An AI tool assigned 180 labels from the definitions and the decision rule in Label Taxonomy. I corrected 4 labels after reviewing the generated labels.
 
