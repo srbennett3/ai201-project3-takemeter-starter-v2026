@@ -99,45 +99,41 @@
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** Public posts on the E46 (2001–2006) board at NA M3 Forums, https://nam3forum.com/forums/forum/main-forum/e46-2001-2006. I collected whole posts from the first page of repair and parts threads.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** I labeled `cold` the first 20 posts in the csv, then had my AI tool assign the label `pre-labelled` to the following 180 posts using the definitions and the decision rule in Label Taxonomy.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| procedure | 68 | 34% |
+| case | 71 | 35.5% |
+| verdict | 61 | 30.5% |
+| **Total** | 200 | 100% |
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
-
 **1.**
-> *The post:*
+> *The post:* "So don't use race pads on streets. And if anyone has advice on how to get rid of that coating, let me know."
 >
-> *Could have been:*
+> *Could have been:* case or verdict
 >
-> *I chose, because:*
+> *I chose, because:* I used case. The rotors are grooved and the coating is still on the wheels, and he asks how to get it off. A verdict, under my definition, does not include this car's unresolved issue.
 
 **2.**
-> *The post:*
+> *The post:* "So yeah, don't run race brakes on a not race car. I also couldn't get the dust off the 163m wheels and ended up having them refinished."
 >
-> *Could have been:*
+> *Could have been:* case or verdict
 >
-> *I chose, because:*
+> *I chose, because:* I used verdict. He already had the wheels refinished, and that conclusion is the point of the post.
 
 **3.**
-> *The post:*
+> *The post:* "The issue you saw is called servo motor hunting. Error = position command - position feedback. [...] In close-loop control, a loose feedback sensor or plays/backlash on the linkage from feedback device to the actuator is not allowed."
 >
-> *Could have been:*
+> *Could have been:* procedure or verdict
 >
-> *I chose, because:*
+> *I chose, because:* Procedure. The reply describes a squence: servo hunting, error equation, and a loose feedback sensor is not allowed. That is a check the reader can do.
 
 ---
 
@@ -180,7 +176,7 @@ of next unit's variance. -->
 - *What came back:*
 - *What I changed:*
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** An AI tool assigned 180 labels from the definitions and the decision rule in Label Taxonomy. I corrected 4 labels after reviewing the generated labels.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
