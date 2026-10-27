@@ -200,14 +200,17 @@ The smallest test count is verdict, 9.
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.333 | 0.500 | +0.167 |
+| Macro F1 | 0.167 | 0.392 | +0.225 |
+| F1 — `case` | 0.000 | 0.588 | +0.588 |
+| F1 — `procedure` | 0.500 | 0.588 | +0.088 |
+| F1 — `verdict` | 0.000 | 0.000 | +0.000 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
+
+The baseline should mix up procedure and verdict more than case, because posts on that boundary can match both definitions at once and the baseline never sees the pattern I used to differenciate. I expect the trained model's largest gain over the baseline to be on that boundary, if the labeled examples were enough to teach it.
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added

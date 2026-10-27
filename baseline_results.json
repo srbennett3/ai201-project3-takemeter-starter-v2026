@@ -1,0 +1,184 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 30,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 30,
+    "accuracy": 0.3333333333333333,
+    "f1_macro": 0.16666666666666666,
+    "per_label": {
+      "case": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      },
+      "procedure": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "support": 10
+      },
+      "verdict": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 9
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Would you use DMLS for the finished part or proof of concept?",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Come by, drive my car with Bryson\u2019s Mullet tune installed. If you love it (which I\u2019m sure you will) I\u2019ll lend you a laptop or you can do it while at my garage.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by Obioban\nView Post\nI wonder how the weight compares to stock.\nThe stock alu hood is light enough that a lot of the crappy CF hoods (which Karbonius is not) are heavier than stock.\nThat is because every aftermarket hood is actually fiberglass with carbon fiber overlay to give the carbon appearance.\nMostly likely Karbonius will produce an actual full carbon fiber hood which could provide weight savings.\nThe question will be how much weight savings compared to price. If the hood is full carbon, I would except the price to be over $2000.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Hi Everyone,\nWell i had my driveshaft rebuilt a few weeks ago and about week after, i noticed a loud clicking/banging noise under the center console, during 1st gear launch (flame suit on). Weird thing it only happens sometimes.\nI took it back to the shop that had my driveshaft rebuilt, they checked, guibo, u-joints, center support bearing and everything was nice and tight, no visible scraping or anything.\nNow the diff on the other hand has a lot of play on input and output shafts, there is a audible clunk and play, the car has 174k miles and i don't have anything in the history in terms of any work done to it.\nI did see this visibly at the shop when it was on the lift.\nThe shop is saying all the slack the drive shaft had before was probably taking some of the impact.\nHere is a video i took of the noise, please excuse the dark video. Took this video before taking to the shop, so i wasn't sure what was making the noise.\nhttps://www.youtube.com/shorts/cnyh8Dbc2NY?si=iap_q3JDDAijJT1z\nAny opinions on the noise? can a diff make that noise? Other than that, the car feels fine, it does have some clunks on initial engagement, but when the car is in motion it feels fine.",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "I think I'm retarded. This is the new longer Vorshlag ultra\ncomplicated shaft nut thingie.\nDoes this top nut need to be flush with the bearing? Because I already almost knackered the shaft threads on the otherside try to get the fucker on.",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Awesome, this would have been mega helpful when I installed my G5-R's. Forgot exactly how I went about it but I dremeled way more material off the mounting piece than I would have liked...and still had the passenger side come out misaligned. It bugs me every time I drive at night, but it was one of the finickier DIY's I've done so I'm not looking forward to cracking everything open again.\nDo you have pics of them in action yet? I got projector envy from the crisp white hue of the G5-BRTs someone posted here, I imagine these LEDs will be killer as well.",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by rdogthenut\nView Post\nCrazy, just decided to address this, googled the code (5E21 for me) tonight and came across this post. Tapped the sensor as described and it worked! Car sat for a few years prior to my purchase a year ago and perhaps that contributed. About to flush brake fluid and will report back if code returns. Thanks for the tip!\nIt sems like once the sensor valve gets debris stuck in it, it will never come un-stuck by itself, until you tap the sensor hard enough to dislodge it. Most people end up replacing the sensor due to this error when its actually just a bit dirty insde. Great to see others benefitting from my post, that's what the forums are for",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "I'm using this camera. I have it installed on the trunk lid handle.\nAmazon.com\nhttps://www.amazon.com/dp/B0BKGGRP4Z?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by 9kracing\nView Post\nTry Koch Chemie reactive rust remover\nThanks for the tip, so you think it's a better/stronger product than the one that I use that:\n- also turns purple\n- advertises the same properties (removes baked in brake dust)\nMy gut feeling is that restoration is my only route.\nI am also skeptical about what a clay bar would achieve. That crust is thick and hard, and even a fingernail can't get through it.",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Sounds like you need to get under the car and really look around at length at any items that are suspect as it could be anything.\nMaybe use some type of paint pen that won't dry so you can see witness marks when something contacts something else.\nAlso, I would do a nut and bolt check on anything that was recently done to the vehicle.\nBeyond that, if you are paying a mechanic, they could use a set of chassis \"ears\" to more easily find the noise, but that could be expensive as it could take some time for the sound to be pinpointed.\nAlso, if the car is too low your rear springs may be binding over bumps.",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by bmw m3 s50\nView Post\nThat is because every aftermarket hood is actually fiberglass with carbon fiber overlay to give the carbon appearance.\nMostly likely Karbonius will produce an actual full carbon fiber hood which could provide weight savings.\nThe question will be how much weight savings compared to price. If the hood is full carbon, I would except the price to be over $2000.\nMK is 1325Eur, 2k USD would be a touch high imo, but hey what do I know.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "2005 M3, trying to clean out all gunk in brake fluid reservoir as I\u2019m flushing fluid, new brake lines etc..\nWithin the fluid container is the mesh filter removable without damaging the reservoir and is a replacement filter part available?\nThe filter is very firmly secured, I didn\u2019t want to completely ruin it as I wasn\u2019t sure if molded into the container, but I did find one video on YouTube showing it can be removed. No luck finding a listed replacement part in parts catalog, but did find a similar looking filter p/n 34326752749.\nI was hoping to just replace the entire fluid container with new OEM part but p/n 34326750798\u200b looks to be NLA sadly.\nAppreciate any insight if others have looked into this.\nAttached Files",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by toy4to\nView Post\nI have KW clubsport 3 way and I'm 100% street driven. Let's just say, it's very very firm. Passengers aren't really a fan of the ride. Even on full soft. I don't recommend if you're looking for comfort.\nThank you very much. I couldn\u2019t believe what I was hearing and this confirms it. Clubsport = racecar.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "You want something soft or the hangers will eventually rip out of the thin gauge stainless in your exhaust.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Funny thing the first thing i ever bought from FCP euro was this cowl in 2016. That cowl is now deteriorated and will warranty it, problem is this part cost $76.81 back in 2016 lol.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "I have a 2002 M3 6MT with 120k miles on the clock, while doing the smoke test, i notice some smoke coming out. Things are getting old and I want to replace ALL plastic hose and rubbers as a preventive maintenance.\nSo I build a list here. Please feel free to list anything related to vacuum leak parts while I am doing the job.\nVery much appreciated ! Item\nMPN\nDescription\nQTY\n3\n11617831930\nUnder Airbox Vent hose\n1\nItem\nMPN\nDescription\nQTY\n1\n11617831663\nSucking jet pump with lines (Up to 2002)\n1\n1\n11617836745\nSucking jet pump with lines\n1\n2\n11617831460\nHose elbow\n1\n3\n11617833212\nAir shut-off valve\n1\n6\n11151726340\nclamp\n2\nItem\nMPN\nDescription\nQTY\n2\n13417831443\nDamper rubber\n1\n6\n13417837597\nHose elbow\n1\n7\n13417831794\nHose clamp\n1\n8\n13417831793\nHose clamp\n4\n9\n13417837653\nHose assy\n1\n-\n-\n-\n-\n11\n13417837655\nHose assy\n1\n12\n13417831803\nQuick-release coupling\n1\nAlso I am taking this opportunity to seek for low-cost replacement because small section of BMW FPM fuel-grade hose like these for $110+ is just outrageous. I was hoping I can also document a full list with what can be replaced by generic FPM heavy duty fuel-grade line / adjustable hose clamp to keep the cost low.",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by elrichmeister\nView Post\nThey spun the drive shaft and wheels by hand and mentioned that the slack was quite excessive.\nLike how much, 90 or 180 degree free rotation? Normal stock spider gears have a lot of plays, easily the wheel can rotate 45* freely.\nOne cannot read the diff input shaft plays by rotating the input until the output flanges are rotating, as this includes both pinion/ring plays (very small) and spider gears plays (very large). It needs a special feel to detect the pinion/ring plays from rotating the input.",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Have you tried replacing the VANOS valve block with another one?",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "There are two DIYs that suggest to put RTV around the perimeter of the oil pan gasket. It is only necessary to use RTV (Drei-bond) on the joints where the block meets the front timing cover and the rear main seal. This will create much less unnecessary mess and potential for getting loose RTV sucked into the oil pump screen.\nUse two or three zip ties to hold the gasket in place on the oil pan during reinstall.",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Hi guys, im thinking to swap my M3 front bumper to the CSL style, any recommendations? not on a very high budget just want the part fitment to be good. Saw the carbon one is like 26k around which is kind of too much for me. I\u2019ll just go with the plastic.",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Rear axle rebuild/replacement? -\nNA M3 Forums\nhttps://nam3forum.com/forums/forum/main-forum/e46-2001-2006/46356-rear-axle-rebuild-replacement\nI\u2019m going though a big maintenance job replacing all of my wheel bearings. What is the consensus on rear axle maintenance? I have a ~160k mikes on them. Do I need to consider a rebuild or replacement? TIA!\nPS - if somebody know of a good shop to rebuild these in LA please let me know.\nhttps://uploads.tapatalk",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by Pklauser\nView Post\nSolenoid pack is new BMW OE a year ago after getting a persistent code 72 that would return immediately after clearing.\nIt's better to provide where code 72 was read from. INPA code 72 is different than OBD code p0072, and INPA lists the code under decimal, 72 in this case, and 48 as hexadecimal.\nI searched for code hex 48: it says the IN cam is retarded. You should remove VC and do a timing verification.\nTo do: remove the solenoid pack to release oil pressure, turn crank CW front view, to TDC. Use 24mm wrench to turn the IN cam CCW front view (might need to rock it back/forth in order to push the vanos piston forward until it hits the front cap. At this position the cam vertical hole should be very close to 90 deg to the head VC surface. I think your cam leans to the EX side.\n48\nDME: Inlet VANOS, retard valve\nmss54ds0\nMotor Electronics",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "I have 3.91 and I really like it but you have to rev on 1st gear at least to 4k because is short . It's also still good for highway driving. I never tried 4.10 but I think it's too short for me .",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by ac427\nView Post\nThanks for the interesting thread.\nWhat symptoms do you get if you have a vacuum leak?\nHow and what equipment is required to perform the smoke test?\nThe plastic pipe (the first part you listed) from the crankcase to the bottom of the airbox becomes brittle.\nSome have made a new pipe by using flexible hose and re-using the ends from the original pipe.\nI bought a smoke tester from Amazon and it seems smoke are coming below the airbox, most likely either one of those I listed in my part list.\nMight as well replace them all while I am there for the peace of mind.",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "didnt you check that it assembled before cranking the hell out of it??",
+      "gold": "case",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by prostcfc\nView Post\nInteresting. I'm getting a 5E21 intermittently. Checked sensor values with INPA, and they seem to be fine (all green, move in lockstep). I'll give this a try though when I flush/bleed my brakes in the next few weeks.\nNot going to claim victory yet, but I had a track weekend a few days ago and obviously I flushed the brake fluid prior; it was quite dirty and had some sort of debris in it. I haven't got these lights to flash since then. Still will hook it up to INPA and scan for codes, but definately worth trying a flush first. Side note: I will not be trying to remove the reservoir filter basket again - I yanked it out, got brake fluid everywhere, but ended up buying a new basket from FCPEuro. Next time I'll syphon as best I can with it in.",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Just saw this on FB and Insta. Looks awesome and no doubt will be a quality product. Looking forward to seeing this installed on someone's M3.\nI also really like the MK Trackparts Hood https://www.mk-motorsportteile.de/en...3-e46-gtr-vent but it seems to be a race application more than a street using hood pins. Not sure if it'll be good on just the OE hood latches.\nThe Karb, Will focus more on OE style fitment and usage of hood latches.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Had them on my E36 and didn't care for it. haven't bothered trying on E46.",
+      "gold": "verdict",
+      "predicted": "procedure"
+    },
+    {
+      "text": "The first tooth engagement will vary depending on how you positioned the elongated holes on the intake and exhaust sprockets.",
+      "gold": "procedure",
+      "predicted": "procedure"
+    },
+    {
+      "text": "Originally posted by Slideways\nView Post\nIt would be a good idea to have another set of wheels for track use. If the finish gets ruined or they get damaged, it won't matter.\nI do have one, but for the road trip I put my street tires and I'm glad I did (except for the problem above), as it rained and going with the track set with the Re71rs' would not have been ideal.\nOh, and telling the story, I forgot to say: there were sparks coming out of my wheels when braking moderately hard during the trip. Hell. I knew it wasn't \"recommended\" to drive on track pads on the streets. I didn't know it was absolutely one of the worst things to do and the consequences would be over 1000 worth of damage.\nHere's one more image of my wheel during the trip, when I still thought I would just need to wipe down the dust and it would be fine:",
+      "gold": "case",
+      "predicted": "procedure"
+    }
+  ]
+}
