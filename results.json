@@ -41,8 +41,8 @@
     }
   },
   "confidence": {
-    "mean_when_right": 0.37953653931617737,
-    "mean_when_wrong": 0.3691105544567108,
+    "mean_when_right": 0.37953656911849976,
+    "mean_when_wrong": 0.3691105842590332,
     "accuracy_most_confident_third": 0.7,
     "accuracy_least_confident_third": 0.3,
     "n_per_third": 10

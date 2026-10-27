@@ -225,30 +225,40 @@ The baseline should mix up procedure and verdict more than case, because posts o
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-|---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.500 | 0.400 | 0.400 | 0.100 |
+| Macro F1 | 0.392 | 0.296 | 0.278 | 0.114 |
+| F1 — `procedure` | 0.588 | 0.375 | 0.308 | 0.281 |
+| F1 — `case` | 0.588 | 0.514 | 0.526 | 0.074 |
+| F1 — `verdict` | 0.000 | 0.000 | 0.000 | 0.000 |
+
+Accuracy moved 0.100 across seeds. Enough that a criterion landing within that band can't really be called either way.
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
+| true \ predicted | procedure | case | verdict |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **procedure** | 5 | 5 | 0 |
+| **case** | 1 | 10 | 0 |
+| **verdict** | 1 | 8 | 0 |
+
+Biggest confusion: 8 real `verdict` posts called `case`.
+The other direction: 0 real `case` posts called `verdict`.
+
+That's lopsided — the model leans toward `case` on this pair.
+A direction like that usually points at your labelling rather than the
+model. Your agreement report is the thing that can tell you which.
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
 
+8 real verdict posts were called case, and 0 real case posts were called verdict.
 
 
 ---
