@@ -368,24 +368,24 @@ The pattern for me was applying the rules too loosely. However, I do believe the
 ## The Improvement
 
 **What I changed:**
-
+I changed 2 rows in labels.csv from verdict to case. Both are this car, a code, and work already done, and they do not tell the reader what to do.
 **Which diagnosis pointed at it:**
-
+Criteria 1, 2, and 5, in the diagnosis at line 298. Verdict posts were called case, and those 2 rows were labeled verdict where line 91 says case.
 ### Run Log — After
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Held-out accuracy | ≥ 0.67 | 0.400 | 0.400 | 0.367 | MISSED |
+| 2. Every label F1 | ≥ 0.55 | 0.000 verdict | 0.000 verdict | 0.000 verdict | MISSED |
+| 3. Largest label share | ≤ 0.50 | 0.365 | 0.365 | 0.365 | MET |
+| 4. Sure third minus unsure third | ≥ 0.20 | 0.100 | 0.200 | 0.000 | MISSED |
+| 5. Macro F1 | ≥ 0.60 | 0.244 | 0.244 | 0.226 | MISSED |
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
-
+It did not help. Rows 1, 2, and 5 are the same or lower than lines 240, 241, and 244.
 
 
 ---

@@ -1,34 +1,38 @@
 text,label,note
-Would you use DMLS for the finished part or proof of concept?,case,pre-labeled
-"Come by, drive my car with Bryson’s Mullet tune installed. If you love it (which I’m sure you will) I’ll lend you a laptop or you can do it while at my garage.",verdict,pre-labeled
-"Originally posted by Obioban
+"Originally posted by Slideways
 View Post
-I wonder how the weight compares to stock.
-The stock alu hood is light enough that a lot of the crappy CF hoods (which Karbonius is not) are heavier than stock.
-That is because every aftermarket hood is actually fiberglass with carbon fiber overlay to give the carbon appearance.
-Mostly likely Karbonius will produce an actual full carbon fiber hood which could provide weight savings.
-The question will be how much weight savings compared to price. If the hood is full carbon, I would except the price to be over $2000.",verdict,pre-labeled
-"Hi Everyone,
-Well i had my driveshaft rebuilt a few weeks ago and about week after, i noticed a loud clicking/banging noise under the center console, during 1st gear launch (flame suit on). Weird thing it only happens sometimes.
-I took it back to the shop that had my driveshaft rebuilt, they checked, guibo, u-joints, center support bearing and everything was nice and tight, no visible scraping or anything.
-Now the diff on the other hand has a lot of play on input and output shafts, there is a audible clunk and play, the car has 174k miles and i don't have anything in the history in terms of any work done to it.
-I did see this visibly at the shop when it was on the lift.
-The shop is saying all the slack the drive shaft had before was probably taking some of the impact.
-Here is a video i took of the noise, please excuse the dark video. Took this video before taking to the shop, so i wasn't sure what was making the noise.
-https://www.youtube.com/shorts/cnyh8Dbc2NY?si=iap_q3JDDAijJT1z
-Any opinions on the noise? can a diff make that noise? Other than that, the car feels fine, it does have some clunks on initial engagement, but when the car is in motion it feels fine.",case,pre-labeled
+Are you running non-HP Alpha-N or HP DME CSL? Non-HP Alpha-N from another past popular tuner would do the ""full throttle, shift, get back on full throttle buck/hiccup"" badly and it is an extremely annoying issue.
+Whenever trying to rule out a tuning issue, a good test is always to go back to factory non-CSL or CSL tune and check if the weird issue/s still happen.
+I have an MSS54HP DME. Also used a MAP sensor with factory CSL scaling (purchased from forums) as well as an OE CSL IAT sensor. So, shouldn’t be Alpha-N I don’t think?
+I drove the car extensively with the factory ‘tune’ before the flash, and none of these issues presented themselves. Will be curious to see if these issues persist with the mullet tune, I will relay the results and provide another back/back comparison. Considering I’ve had at least one of these issues on two cars with HTE tunes (that did not have issues prior the HTE tune) - plus conversations with other E46 M3 owners with HTE tunes that have expressed similar issues, I felt confident enough to make this review and share my experiences.",case,pre-labeled
+What are the state of the diff bushings? As someone who has taken their diff out 3 times due to weird noises I will say it sounds like diff is either A) moving around due to loose front bolt or worn bushings or B) the diff has a good amount of play internally. The easiest way to check would be a clutch dump and see how it sounds imo.,procedure,pre-labeled
+"Originally posted by Slideways
+View Post
+It would be a good idea to have another set of wheels for track use. If the finish gets ruined or they get damaged, it won't matter.
+I do have one, but for the road trip I put my street tires and I'm glad I did (except for the problem above), as it rained and going with the track set with the Re71rs' would not have been ideal.
+Oh, and telling the story, I forgot to say: there were sparks coming out of my wheels when braking moderately hard during the trip. Hell. I knew it wasn't ""recommended"" to drive on track pads on the streets. I didn't know it was absolutely one of the worst things to do and the consequences would be over 1000 worth of damage.
+Here's one more image of my wheel during the trip, when I still thought I would just need to wipe down the dust and it would be fine:",case,cold
+"I could probably help you with that, I can get them here in Europe for a good price and send them to you. Send me a PM if interested.",verdict,pre-labeled
+"Originally posted by E46_M3_ZCP
+View Post
+Are yours genuine BMW or OEM? Only genuine BMW ones I've come across seem to be the heated ones, (Left P/N 51167145267, Right P/N 51167145268).
+I agree, cost/effort is minimal but just wanted to throw it out there.
+Shit now that I think about it I don't remember, I got them in 2002. They take some getting used to which is why I think some people don't like them but I'd never take them off. You get a bigger picture of what's going on around you but you need to adjust the eye-brain connection so that you know the cars are closer than they appear.
+I was coming from a jdm car with vision mirrors so I was used to the wide angle and got spoiled. The problem with trash DOT and us shit in general is they're made for idiots. If you adjust your side mirrors properly here (which 90% of people on the road don't know how to do) there is always an inherent blind spot bc the lens is narrow angle. The way I have my daily's mirrors I can see where I need to see but in LA traffic it makes it difficult to spot bikes splitting lanes when you're trying to lane change so it can be dangerous.",verdict,pre-labeled
+didnt you check that it assembled before cranking the hell out of it??,case,pre-labeled
+"That play might be ok because the car is unloaded. Your parts are free balling right now.
+If you load them up by putting the car on the ground there will probably be nil",verdict,pre-labeled
+Overall I think 3.91 is the sweet spot for this car. It is long enough that most tracks you'll still have plenty of RPM left in 5th gear and it definitely feels a lot peppier around town.,verdict,pre-labeled
+"I dont think it makes one bit of difference. It's just one of those OCD things that ""feels right""",verdict,pre-labeled
+I would wait until the OE bmw or oe modine (same part) are back in stock.,verdict,pre-labeled
 "I think I'm retarded. This is the new longer Vorshlag ultra
 complicated shaft nut thingie.
 Does this top nut need to be flush with the bearing? Because I already almost knackered the shaft threads on the otherside try to get the fucker on.",case,pre-labeled
-"Awesome, this would have been mega helpful when I installed my G5-R's. Forgot exactly how I went about it but I dremeled way more material off the mounting piece than I would have liked...and still had the passenger side come out misaligned. It bugs me every time I drive at night, but it was one of the finickier DIY's I've done so I'm not looking forward to cracking everything open again.
-Do you have pics of them in action yet? I got projector envy from the crisp white hue of the G5-BRTs someone posted here, I imagine these LEDs will be killer as well.",case,pre-labeled
-"Originally posted by rdogthenut
-View Post
-Crazy, just decided to address this, googled the code (5E21 for me) tonight and came across this post. Tapped the sensor as described and it worked! Car sat for a few years prior to my purchase a year ago and perhaps that contributed. About to flush brake fluid and will report back if code returns. Thanks for the tip!
-It sems like once the sensor valve gets debris stuck in it, it will never come un-stuck by itself, until you tap the sensor hard enough to dislodge it. Most people end up replacing the sensor due to this error when its actually just a bit dirty insde. Great to see others benefitting from my post, that's what the forums are for",procedure,pre-labeled
-"I'm using this camera. I have it installed on the trunk lid handle.
-Amazon.com
-https://www.amazon.com/dp/B0BKGGRP4Z?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1",procedure,pre-labeled
+"So I flashed this before on previous cars and other people's cars and didn't have any issues
+I went to flash my SMG module following the instructions above but at step seven something different for me happened. I only got one progress bar indicator from 0 to 100% and I never got a second faster progress indicator. Everything appeared to flash correctly, but I don't think it actually flashed the CSL transmission software
+I thought what the CSL transmission software that the SMG system would always start in auto mode and that's how you knew that you had the CSL transmission software. But in mind, even if I put it in a neutral turn the car off and turn it back on. It starts off a neutral and when I put it into drive it doesn't show S first for auto mode and instead is starting off in manual mode if I switch to auto mode S turn the car off and turn it back on. It will remember that and I thought the CSL software does not remember what your last mode was but always starts you off in S mode.
+Is there another way to verify that the CSL transmission software actually updated?",case,pre-labeled
+You want something soft or the hangers will eventually rip out of the thin gauge stainless in your exhaust.,verdict,pre-labeled
 "Originally posted by 9kracing
 View Post
 Try Koch Chemie reactive rust remover
@@ -37,29 +41,9 @@ Thanks for the tip, so you think it's a better/stronger product than the one tha
 - advertises the same properties (removes baked in brake dust)
 My gut feeling is that restoration is my only route.
 I am also skeptical about what a clay bar would achieve. That crust is thick and hard, and even a fingernail can't get through it.",case,cold
-"Sounds like you need to get under the car and really look around at length at any items that are suspect as it could be anything.
-Maybe use some type of paint pen that won't dry so you can see witness marks when something contacts something else.
-Also, I would do a nut and bolt check on anything that was recently done to the vehicle.
-Beyond that, if you are paying a mechanic, they could use a set of chassis ""ears"" to more easily find the noise, but that could be expensive as it could take some time for the sound to be pinpointed.
-Also, if the car is too low your rear springs may be binding over bumps.",procedure,pre-labeled
-"Originally posted by bmw m3 s50
-View Post
-That is because every aftermarket hood is actually fiberglass with carbon fiber overlay to give the carbon appearance.
-Mostly likely Karbonius will produce an actual full carbon fiber hood which could provide weight savings.
-The question will be how much weight savings compared to price. If the hood is full carbon, I would except the price to be over $2000.
-MK is 1325Eur, 2k USD would be a touch high imo, but hey what do I know.",verdict,pre-labeled
-"2005 M3, trying to clean out all gunk in brake fluid reservoir as I’m flushing fluid, new brake lines etc..
-Within the fluid container is the mesh filter removable without damaging the reservoir and is a replacement filter part available?
-The filter is very firmly secured, I didn’t want to completely ruin it as I wasn’t sure if molded into the container, but I did find one video on YouTube showing it can be removed. No luck finding a listed replacement part in parts catalog, but did find a similar looking filter p/n 34326752749.
-I was hoping to just replace the entire fluid container with new OEM part but p/n 34326750798​ looks to be NLA sadly.
-Appreciate any insight if others have looked into this.
-Attached Files",case,pre-labeled
-"Originally posted by toy4to
-View Post
-I have KW clubsport 3 way and I'm 100% street driven. Let's just say, it's very very firm. Passengers aren't really a fan of the ride. Even on full soft. I don't recommend if you're looking for comfort.
-Thank you very much. I couldn’t believe what I was hearing and this confirms it. Clubsport = racecar.",verdict,pre-labeled
-You want something soft or the hangers will eventually rip out of the thin gauge stainless in your exhaust.,verdict,pre-labeled
-"Funny thing the first thing i ever bought from FCP euro was this cowl in 2016. That cowl is now deteriorated and will warranty it, problem is this part cost $76.81 back in 2016 lol.",verdict,pre-labeled
+Would you use DMLS for the finished part or proof of concept?,case,pre-labeled
+"I've run the [Castrol] Edge 10W60 variants over the years; no noticeable oil consumption. But, that's not say Motul isn't a good choice.",verdict,pre-labeled
+Its removable but you really have to fight it to get it out. You'll need a bunch of picks/flat screw drivers and about 4 hands. Once its out you can either toss it in the bin or spray it down with brake cleaner before reinserting.,procedure,pre-labeled
 "I have a 2002 M3 6MT with 120k miles on the clock, while doing the smoke test, i notice some smoke coming out. Things are getting old and I want to replace ALL plastic hose and rubbers as a preventive maintenance.
 So I build a list here. Please feel free to list anything related to vacuum leak parts while I am doing the job.
 Very much appreciated ! Item
@@ -131,21 +115,31 @@ Hose assy
 Quick-release coupling
 1
 Also I am taking this opportunity to seek for low-cost replacement because small section of BMW FPM fuel-grade hose like these for $110+ is just outrageous. I was hoping I can also document a full list with what can be replaced by generic FPM heavy duty fuel-grade line / adjustable hose clamp to keep the cost low.",procedure,pre-labeled
+"2005 M3, trying to clean out all gunk in brake fluid reservoir as I’m flushing fluid, new brake lines etc..
+Within the fluid container is the mesh filter removable without damaging the reservoir and is a replacement filter part available?
+The filter is very firmly secured, I didn’t want to completely ruin it as I wasn’t sure if molded into the container, but I did find one video on YouTube showing it can be removed. No luck finding a listed replacement part in parts catalog, but did find a similar looking filter p/n 34326752749.
+I was hoping to just replace the entire fluid container with new OEM part but p/n 34326750798​ looks to be NLA sadly.
+Appreciate any insight if others have looked into this.
+Attached Files",case,pre-labeled
+"BMW TIS describes this procedure of finding the best tooth in the timing documentation for the Euro S50, so it is not just some made up thing.",procedure,pre-labeled
+My guess is a bad wheel speed sensor. Traction control and TPMS can't work without it. We don't have TPMS sensors. The pressure is measured by diameter while spinning.,procedure,pre-labeled
 "Originally posted by elrichmeister
 View Post
-They spun the drive shaft and wheels by hand and mentioned that the slack was quite excessive.
-Like how much, 90 or 180 degree free rotation? Normal stock spider gears have a lot of plays, easily the wheel can rotate 45* freely.
-One cannot read the diff input shaft plays by rotating the input until the output flanges are rotating, as this includes both pinion/ring plays (very small) and spider gears plays (very large). It needs a special feel to detect the pinion/ring plays from rotating the input.",procedure,pre-labeled
-Have you tried replacing the VANOS valve block with another one?,procedure,pre-labeled
-"There are two DIYs that suggest to put RTV around the perimeter of the oil pan gasket. It is only necessary to use RTV (Drei-bond) on the joints where the block meets the front timing cover and the rear main seal. This will create much less unnecessary mess and potential for getting loose RTV sucked into the oil pump screen.
-Use two or three zip ties to hold the gasket in place on the oil pan during reinstall.",procedure,pre-labeled
+They were moving the wheels small degree and you can hear clunks in the diff where they were moving back and forth, they mentioned the slack was pretty bad and worst they've seen with e46 M3's.
+This is normal to hear clunk in the spider gears when doing this. Normal.
+I played the video again, the crunching noise is sure not from the diff. Yes, it sound more like driveshaft bad CV joint, or a big cracked floor mounted to diff subframe.",procedure,pre-labeled
+"I got a 4.10 installed at Performance Technic in the Bay Area. I have sort of mixed feelings about it. 1st gear is pretty useless and it feels like it cruises at a pretty high RPM now on the freeway. On the other hand, I've taken it to the track twice and the butt dyno thinks it's pretty funny.",verdict,pre-labeled
+"I'm using this camera. I have it installed on the trunk lid handle.
+Amazon.com
+https://www.amazon.com/dp/B0BKGGRP4Z?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1",procedure,pre-labeled
+"You could remove the CV, clean and regrease the inner and outer joints. MIght need to do the passenger inner boot due to heat from the exhaust.",procedure,pre-labeled
 "Hi guys, im thinking to swap my M3 front bumper to the CSL style, any recommendations? not on a very high budget just want the part fitment to be good. Saw the carbon one is like 26k around which is kind of too much for me. I’ll just go with the plastic.",case,pre-labeled
-"Rear axle rebuild/replacement? -
-NA M3 Forums
-https://nam3forum.com/forums/forum/main-forum/e46-2001-2006/46356-rear-axle-rebuild-replacement
-I’m going though a big maintenance job replacing all of my wheel bearings. What is the consensus on rear axle maintenance? I have a ~160k mikes on them. Do I need to consider a rebuild or replacement? TIA!
-PS - if somebody know of a good shop to rebuild these in LA please let me know.
-https://uploads.tapatalk",case,pre-labeled
+"Hi all,
+Finally got around to working on my car again. Got the vanos anti rattle kit installed and im pleased to say the engine is the quietest ive ever heard it. I was ready to rip it when I pulled out of the garage and remember about my rear clunk. After a quick check I noticed my axle boot is ripped and has been for a while. The axle cv joint seems to be completely compromised.
+Wheres the best place to get a replacement axle (or set of axles). I see redish selling complete sets in the UK for $1250 US. However they do not ship to the US. Turner/ECS sells one shaft for almost $1k. Where can I get one??? Right rear if it matters.",case,pre-labeled
+"Feel any vibrations or hums at speed? Like wheel isn't on straight.
+You're dsc light stays on? Never had mine more than flicker.
+Maybe dsc pressure sensor(s) are bad, check codes.",procedure,pre-labeled
 "Originally posted by Pklauser
 View Post
 Solenoid pack is new BMW OE a year ago after getting a persistent code 72 that would return immediately after clearing.
@@ -156,29 +150,7 @@ To do: remove the solenoid pack to release oil pressure, turn crank CW front vie
 DME: Inlet VANOS, retard valve
 mss54ds0
 Motor Electronics",procedure,pre-labeled
-I have 3.91 and I really like it but you have to rev on 1st gear at least to 4k because is short . It's also still good for highway driving. I never tried 4.10 but I think it's too short for me .,verdict,pre-labeled
-"Originally posted by ac427
+"Originally posted by Shonky
 View Post
-Thanks for the interesting thread.
-What symptoms do you get if you have a vacuum leak?
-How and what equipment is required to perform the smoke test?
-The plastic pipe (the first part you listed) from the crankcase to the bottom of the airbox becomes brittle.
-Some have made a new pipe by using flexible hose and re-using the ends from the original pipe.
-I bought a smoke tester from Amazon and it seems smoke are coming below the airbox, most likely either one of those I listed in my part list.
-Might as well replace them all while I am there for the peace of mind.",case,pre-labeled
-didnt you check that it assembled before cranking the hell out of it??,case,pre-labeled
-"Originally posted by prostcfc
-View Post
-Interesting. I'm getting a 5E21 intermittently. Checked sensor values with INPA, and they seem to be fine (all green, move in lockstep). I'll give this a try though when I flush/bleed my brakes in the next few weeks.
-Not going to claim victory yet, but I had a track weekend a few days ago and obviously I flushed the brake fluid prior; it was quite dirty and had some sort of debris in it. I haven't got these lights to flash since then. Still will hook it up to INPA and scan for codes, but definately worth trying a flush first. Side note: I will not be trying to remove the reservoir filter basket again - I yanked it out, got brake fluid everywhere, but ended up buying a new basket from FCPEuro. Next time I'll syphon as best I can with it in.",procedure,pre-labeled
-"Just saw this on FB and Insta. Looks awesome and no doubt will be a quality product. Looking forward to seeing this installed on someone's M3.
-I also really like the MK Trackparts Hood https://www.mk-motorsportteile.de/en...3-e46-gtr-vent but it seems to be a race application more than a street using hood pins. Not sure if it'll be good on just the OE hood latches.
-The Karb, Will focus more on OE style fitment and usage of hood latches.",verdict,pre-labeled
-Had them on my E36 and didn't care for it. haven't bothered trying on E46.,verdict,pre-labeled
-The first tooth engagement will vary depending on how you positioned the elongated holes on the intake and exhaust sprockets.,procedure,pre-labeled
-"Originally posted by Slideways
-View Post
-It would be a good idea to have another set of wheels for track use. If the finish gets ruined or they get damaged, it won't matter.
-I do have one, but for the road trip I put my street tires and I'm glad I did (except for the problem above), as it rained and going with the track set with the Re71rs' would not have been ideal.
-Oh, and telling the story, I forgot to say: there were sparks coming out of my wheels when braking moderately hard during the trip. Hell. I knew it wasn't ""recommended"" to drive on track pads on the streets. I didn't know it was absolutely one of the worst things to do and the consequences would be over 1000 worth of damage.
-Here's one more image of my wheel during the trip, when I still thought I would just need to wipe down the dust and it would be fine:",case,cold
+You can read the version in INPA in the Info page. The 7843255. But sounds like it hasn't worked.
+When I go into INPA into transmission control for the SMG EGS, If I go to information it will show me my hardware which is 743260 but if I go to identification it doesn't show anything so I'm not really sure where I would see the 7843255",case,pre-labeled
