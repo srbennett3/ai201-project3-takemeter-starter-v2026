@@ -299,7 +299,7 @@ model. Your agreement report is the thing that can tell you which.
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 27 / 30 = 90%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -323,24 +323,34 @@ model. Your agreement report is the thing that can tell you which.
 
 **1.**
 > *The post:*
->
+> Three of us ran the same session on the same day, different shoes, within 10 seconds of each other over 5 miles. I'm not saying shoes do nothing, but whatever they do was smaller than the noise between three people.
 > *Staff said / I said:*
->
+> analysis / reaction
 > *My call, and why:*
->
+> While the tone did feel like a reaction, staff is right. Rule 3 says a recent post is still analysis when a checkable fact carries the argument. The 10 seconds over 5 miles is that fact.
 > *Which pile:*
-
+> (a) The rule covered it and I applied it loosely.
 **2.**
 > *The post:*
->
+> The club needs to stop pretending the Tuesday session is for everyone. It isn't and it never has been.
 > *Staff said / I said:*
->
+> hot_take / reaction
 > *My call, and why:*
->
+> This post at first sounded like a reaction to the club's actions, but I think staff is right. Rule 2 says a reaction reports what just happened to the writer. This post is a general claim about the Tuesday session, and a heated general claim is still a hot_take.
 > *Which pile:*
+> (a) The rule covered it and I applied it loosely.
+**3.**
+> *The post:*
+> Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.
+> *Staff said / I said:*
+> hot_take / analysis
+> *My call, and why:*
+> Staff is right. Rule 1 says a number that decorates a conclusion the writer already reached is a hot_take. The 3% is attached to "obviously the shoes are the whole story," which is the same shape as the example under Rule 1.
+> *Which pile:*
+> (a) The rule covered it and I applied it loosely.
 
 **What the pattern in my disagreements tells me:**
-
+The pattern for me was applying the rules too loosely. However, I do believe there is some ambiguity in the labels I missed. There are criteria that match two taxonomies, so it is difficult to decide which one to choose.
 
 
 ---
