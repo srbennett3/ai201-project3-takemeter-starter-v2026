@@ -235,6 +235,14 @@ The baseline should mix up procedure and verdict more than case, because posts o
 
 Accuracy moved 0.100 across seeds. Enough that a criterion landing within that band can't really be called either way.
 
+| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
+|---|---|---|---|---|---|
+| 1. Held-out accuracy | ≥ 0.67 | 0.500 | 0.400 | 0.400 | MISSED |
+| 2. Every label F1 | ≥ 0.55 | 0.000 verdict | 0.000 verdict | 0.000 verdict | MISSED |
+| 3. Largest label share | ≤ 0.50 | 0.355 | 0.355 | 0.355 | MET |
+| 4. Sure third minus unsure third | ≥ 0.20 | 0.400 | 0.500 | -0.100 | MISSED |
+| 5. Macro F1 | ≥ 0.60 | 0.392 | 0.296 | 0.278 | MISSED |
+
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
@@ -270,11 +278,11 @@ model. Your agreement report is the thing that can tell you which.
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Held-out accuracy at least 0.67 on every seed | 0.67 | MISSED | The three seeds were 0.500, 0.400, and 0.400. |
+| 2 | Every label F1 at least 0.55 on every seed | 0.55 | MISSED | Verdict F1 was 0.000 on all three seeds. |
+| 3 | No label more than 50% of labels.csv | 0.50 | MET | Case is 71 of 200 posts, 0.355, and that file is the same for every seed. |
+| 4 | Sure third beats the unsure third by at least 0.2 on every seed | 0.2 | MISSED | The gaps were 0.400, 0.500, and -0.100. |
+| 5 | Macro F1 at least 0.6 on every seed | 0.6 | MISSED | Macro F1 was 0.392, 0.296, and 0.278. |
 
 **Diagnoses**
 
@@ -287,7 +295,9 @@ model. Your agreement report is the thing that can tell you which.
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
 
+Criteria 1, 2, and 5 missed because verdict F1 is 0.000 on every seed, and the errors go one way. On seed 42, 8 real verdict posts were called case, and 0 real case posts were called verdict. On seed 2024, all 9 verdict posts were called case. My agreement rate was 27 of 30, and all 3 disagreements were pile (a): a rule I applied loosely. Those 3 posts use the staff labels, so they do not name verdict and case. They do show that I can loosen a boundary the rule already covers. That is a labeling problem
 
+Criterion 4 missed on seed 2024. The sure third was right 0.4 of the time and the unsure third was right 0.5, a gap of -0.100, and each third is 10 posts. Seeds 42 and 7 cleared 0.2. The agreement report is about label rules. This miss is too few posts in a third for a 0.2 gap to hold on every seed.
 
 ---
 
